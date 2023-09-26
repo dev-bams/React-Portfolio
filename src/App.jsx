@@ -1,8 +1,14 @@
-function App(){
+import NavBar from "./components/NavBar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+
+function App() {
   return (
-    <div>
-      <p>My portfolio</p>
-    </div>
-  )
+    <>
+      <NavBar />
+      <Body />
+      <Footer />
+    </>
+  );
 }
 export default App;
