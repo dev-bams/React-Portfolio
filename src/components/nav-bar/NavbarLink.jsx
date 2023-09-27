@@ -4,7 +4,7 @@ function NavbarLink({ name, link }) {
   return (
     <a
       href={link}
-      className=" border-b-2 border-white hover:border-[#023] transition-all"
+      className=" font-bold border-b-2 border-white hover:border-[#023] transition-all duration-300"
     >
       {name}
     </a>
