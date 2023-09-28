@@ -1,9 +1,6 @@
-import React from 'react'
-
+import SideBarLinks from "./SideBarLinks";
 function SideBar() {
-  return (
-    <div>SideBar</div>
-  )
+  return <SideBarLinks />;
 }
 
-export default SideBar
+export default SideBar;
