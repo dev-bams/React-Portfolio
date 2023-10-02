@@ -6,7 +6,7 @@ function WordMark() {
       <a className="flex items-center" href="#">
         <Logo />
         <h1 className=" font-bold text-2xl text-accent">
-          Khaleed Opeloyeru
+          {/* Khaleed Opeloyeru */}
         </h1>
       </a>
     </div>
